@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+	font-family: 'Raleway', sans-serif;
+
+}
+header{
+background-color:#6c9283;
+height:500px;
+}
+.logo {
+    float: left;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+    text-decoration: none;
+    color: #fff;
+}
+nav{
+	height:80px;
+	border-bottom:2px solid #fff;
+	width:80%;
+	margin-right:auto;
+	margin-left:auto;
+}
+header nav ul{
+	list-style:none;
+	float:right;
+}
+header nav ul li{
+	float:right;
+	padding:20px
+}
+header nav ul li a{
+	text-decoration:none;
+	color:#fff;
+}
+.slider{
+	width:70%;
+	margin-right:auto;
+	margin-left:auto;	
+	padding-top:100px;
+	color:#fff;
+	
+}
+.slider img{
+	float:left;
+	padding-right:20px;
+}
+.contaner{
+		width:80%;
+	margin-right:auto;
+	margin-left:auto;
+}
+.well{
+	
+	background-color:#444643;
+	color:#fff;
+	text-align:center;
+	padding:30px;
+}
+.boxs{
+		padding-top:100px;
+		padding-bottom:100px;
+	   text-align:center;
+	   min-height: 200px;
+	   
+}
+
+.boxs .col a span {
+	background-color:#444643;
+  color:#FFF;
+  width:100px;
+  height:100px;
+  border-radius: 50px;
+      display: block;
+	  	margin-right:auto;
+	margin-left:auto;
+
+}
+.boxs .col a span i{
+  color:#FFF;
+ font-size:55px;
+ padding-top: 20px;
+}
+.img-block{
+	
+	background-color:#f6faf9;
+			padding-top:100px;
+		padding-bottom:100px;
+	   text-align:center;
+	   min-height: 400px;
+	   clear:both;
+}
+.img-block  .img-block-header {
+    margin-bottom:80px;
+
+}
+
+.circle{
+		padding-top:100px;
+		padding-bottom:100px;
+	   text-align:center;
+	   min-height: 300px;
+	       clear: both;
+	   }
+
+.circle .contaner .col a img{
+	 width:100%;
+	 height:auto;
+	  border-radius: 150px;
+    max-width: 200px;
+
+}
+.play{
+	background-color:#444643;
+	color:#fff;
+	padding:30px;
+	clear: both;
+}
+
+.play .video img{
+      display: block;
+	margin-left:auto;
+		 width:100%;
+	 height:auto;
+	
+}
+.play .desc{
+padding-left:20px;
+padding-bottom:20px;
+
+}
+.play .desc a{
+	background-color:#5cb5bb;
+	width:50px;
+	color:#fff;
+	text-decoration:none;
+	padding:5px;
+	 border-radius: 5px;
+	 text-align:center;
+	     display: block;
+		 text-transform: capitalize;
+}
+
+.info{
+
+	padding:30px;
+	min-height:300px;
+}
+.info  .desc{
+padding-left:20px;
+padding-bottom:20px;
+
+}
+
+.info  a {
+    background-color: #5cb5bb;
+    width: 50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    /* display: block; */
+    text-transform: capitalize;
+}
+footer{
+	background-color:#333333;
+	min-height:300px;
+	padding-top:30px;
+	padding-bottom:30px;
+	clear: both;
+
+}
+
+.f-col h2 ,.f-col p{
+    color: #e3e5e4;
+	
+}
+.f-col h2 span{
+    height: 2px;
+    width: 100px;
+    background-color: #e3e5e4;
+    display: inline-block;
+	position: absolute;
+    margin-top: 15px;
+    margin-left: 5px;
+
+}
+.f-col a span {
+    font-size: 20px;
+    padding: 11px;
+    background-color: #5cadc0;
+    border-radius: 30px;
+    color: #fff;
+
+}
+.f-col a span i {
+    width: 25px;
+    font-size: 19px;
+    text-align: center;
+}
+.f-col p{
+    color: #e3e5e4;
+	padding-bottom:10px;
+	
+}
+.address,.phone,.email{
+	font-weight:600;
+	width: 30% !important;
+	display: inline-flex;
+
+}
+.clients {
+    text-align: center;
+}
+.touch {
+    margin-bottom: 20px;
+    height: 20px;
+}
+.touch span{
+		width: 70%;
+	float: left;
+}
+
+
+.copyright {
+    height: 40px;
+    background-color: #5cadc0;
+    clear: both;
+}
+.copyright p{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+
+/* tabletas */
+@media (min-width: 768px) {
+
+.boxs .col{
+		display:block !important;
+		width:100%;
+
+}
+.f-col{
+		display:block !important;
+		width:100%;
+
+}
+
+.img-block .col{
+		display:inline-block;
+		width:49%;
+		float: left;
+}
+.circle .contaner .col {
+    float: left;
+    display: inline-block;
+    width: 49%;
+}
+
+.info  .clients,.info  .desc{
+	float:none;
+	display:block;
+	width:100%;
+}
+
+.play .video,.play .desc{
+		float:left;
+	display:inline-block;
+			width:49%;
+}
+.play {
+    height: 350px;
+}
+}
+/* escritorio normales */
+@media (min-width: 992px) {
+.boxs .col{
+		display:inline-block;
+		float:left;
+		width:24%;
+}
+.img-block .col{
+			display:inline-block;
+		float:left;
+		width:24%;
+	
+}
+.circle .contaner .col{
+	float:left;
+	display:inline-block;
+			width:24%;
+
+}
+.play .video, .play .desc {
+    float: left;
+    display: inline-block;
+    width: 45%;
+}
+.play {
+
+height: 300px;
+}
+.info .clients, .info .desc {
+    float: none;
+    display: block;
+    width: 100%;
+	padding: 10px;
+
+}
+.f-col{
+	float:left;
+	display:inline-block;
+	width:33%;
+}
+}
+
+/* pantallas grandes */
+@media (min-width: 1200px) {
+.boxs .col{
+		display:inline-block;
+		float:left;
+		width:24%;
+}
+.img-block .col{
+			display:inline-block;
+		float:left;
+		width:24%;
+	
+}
+.circle .contaner .col{
+	float:left;
+	display:inline-block;
+			width:24%;
+
+}
+.f-col{
+	float:left;
+	display:inline-block;
+	width:33%;
+}
+.info  .clients,.info  .desc{
+		float:left;
+	display:inline-block;
+			width:47%;
+}
+.play {
+
+height: 320px;
+}
+	
+ }
